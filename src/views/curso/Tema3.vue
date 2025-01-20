@@ -376,7 +376,7 @@
         p(data-aos="fade-left").mb-4 Para conocer sobre los fundamentos de la innovación estratégica, lo invitamos a escuchar el siguiente podcast.
         
         TarjetaAudio.color-acento-botones.bg-color-white.mb-3(
-          texto="Fundamentos de la innovación estratégica"
+          texto="Relación entre RSE y Desarrollo Sostenible"
           tiempo
           :audio="require('../../assets/curso/podcast/podcast1.mp3')"
         )
@@ -406,15 +406,12 @@
 
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/274611" target="_blank" rel="noopener noreferrer") De Castro Emilio Cerdá, F. J. A. L. M. (s/f). Las energías renovables en el ámbito internacional. Revistasice.com. 
+              a(href="https://www.unglobalcompact.org" target="_blank" rel="noopener noreferrer") United Nations Global Compact. (2019). Empresas y desarrollo sostenible. 
 
-            p.d-flex.my-4
-              img.me-3(src='@/assets/template/book.svg' :style="{'max-width':'16px'}")
-              span De Janeiro, R. (1992). La declaración del Río sobre el Medio Ambiente y el Desarrollo. Río de Janeiro República Federativa del Brasil., aprobada en Estocolmo el, 16.
 
             p.d-flex.my-4
               img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
-              a(href="https://youtu.be/QKLjwCMyv3M?si=uAWhO9tnyghljaJg" target="_blank" rel="noopener noreferrer") Innovación y sostenibilidad.
+              a(href="https://www.youtube.com/watch?v=A0HEy3BS6no" target="_blank" rel="noopener noreferrer") Gutiérrez, J. A. (2020). Herramientas en la gestión de la RSE
 
           .col-12.col-md-6.col-lg-3.offset-lg-1
             figure
@@ -423,183 +420,8 @@
 </template>
 
 <script>
-import Actividad from '@/components/actividad/Actividad.vue'
 export default {
   name: 'Tema3',
-  components: {
-    Actividad,
-  },
-  data() {
-    return {
-      cuestionario: {
-        tema: 'Herramientas colaborativas para la construcción de paz',
-        titulo: 'Ponte a prueba',
-        introduccion:
-          'Demuestra lo que aprendiste en esta unidad y pon a prueba tus conocimientos.',
-        barajarPreguntas: true,
-        preguntas: [
-          {
-            id: 1,
-            texto:
-              '¿Cuál de las siguientes es una característica fundamental de los derechos humanos?',
-            imagen: '',
-            barajarRespuestas: true,
-            opciones: [
-              {
-                id: 'a',
-                texto: 'Son temporales y cambiantes',
-                esCorrecta: false,
-              },
-              {
-                id: 'b',
-                texto: 'Son universales y aplican a todas las personas',
-                esCorrecta: true,
-              },
-              {
-                id: 'c',
-                texto: 'Son exclusivos de ciertos grupos',
-                esCorrecta: false,
-              },
-              {
-                id: 'd',
-                texto: 'Son opcionales',
-                esCorrecta: false,
-              },
-            ],
-            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-          },
-          {
-            id: 2,
-            texto:
-              '¿Cuál de las siguientes afirmaciones sobre la diversidad cultural es correcta?',
-            imagen: '',
-            barajarRespuestas: true,
-            opciones: [
-              {
-                id: 'a',
-                texto: 'Fomenta la homogeneización cultural',
-                esCorrecta: false,
-              },
-              {
-                id: 'b',
-                texto: 'Promueve el respeto y la aceptación de las diferencias',
-                esCorrecta: true,
-              },
-              {
-                id: 'c',
-                texto: 'Debilita la identidad cultural de los pueblos',
-                esCorrecta: false,
-              },
-              {
-                id: 'd',
-                texto: 'Limita las oportunidades de interacción',
-                esCorrecta: false,
-              },
-            ],
-            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-          },
-          {
-            id: 3,
-            texto:
-              'La mediación en un conflicto tiene como objetivo principal:',
-            imagen: '',
-            barajarRespuestas: true,
-            opciones: [
-              {
-                id: 'a',
-                texto: 'Imponer una solución rápida',
-                esCorrecta: false,
-              },
-              {
-                id: 'b',
-                texto: 'Facilitar el diálogo entre las partes',
-                esCorrecta: true,
-              },
-              {
-                id: 'c',
-                texto: 'Determinar la culpabilidad',
-                esCorrecta: false,
-              },
-              {
-                id: 'd',
-                texto: 'Ignorar las preocupaciones de una parte',
-                esCorrecta: false,
-              },
-            ],
-            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-          },
-          {
-            id: 4,
-            texto: 'En un foro comunitario, es importante:',
-            imagen: '',
-            barajarRespuestas: true,
-            opciones: [
-              {
-                id: 'a',
-                texto: 'Escuchar solo a las autoridades',
-                esCorrecta: false,
-              },
-              {
-                id: 'b',
-                texto: 'Fomentar la participación de todos los miembros',
-                esCorrecta: true,
-              },
-              {
-                id: 'c',
-                texto: 'Decidir por votación sin consultar a los demás',
-                esCorrecta: false,
-              },
-              {
-                id: 'd',
-                texto: 'Excluir las opiniones de los más jóvenes',
-                esCorrecta: false,
-              },
-            ],
-            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-          },
-          {
-            id: 5,
-            texto:
-              '¿Qué busca la justicia restaurativa en el contexto de un conflicto?',
-            imagen: '',
-            barajarRespuestas: true,
-            opciones: [
-              {
-                id: 'a',
-                texto: 'Aplicar una sanción severa',
-                esCorrecta: false,
-              },
-              {
-                id: 'b',
-                texto: 'Reparar el daño y restablecer las relaciones',
-                esCorrecta: true,
-              },
-              {
-                id: 'c',
-                texto: 'Castigar a las partes involucradas',
-                esCorrecta: false,
-              },
-              {
-                id: 'd',
-                texto: 'Ignorar el contexto del conflicto',
-                esCorrecta: false,
-              },
-            ],
-            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-          },
-        ],
-        mensaje_final_aprobado:
-          '¡Felicidades! Has superado la prueba con éxito.',
-        mensaje_final_reprobado:
-          'Te recomendamos repasar nuevamente la unidad para reforzar los conceptos clave antes de volver a intentarlo.',
-      },
-    }
-  },
   mounted() {
     this.$nextTick(() => {
       this.$aosRefresh()
@@ -608,7 +430,4 @@ export default {
 }
 </script>
 
-<style lang="sass">
-.bg-color-actividad
-  background-color: #EBF1F5
-</style>
+<style lang="sass"></style>
