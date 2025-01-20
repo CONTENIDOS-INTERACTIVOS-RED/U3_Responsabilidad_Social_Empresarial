@@ -17,19 +17,41 @@
 
 .bg-color
   &-1
-    background-color: #EAF8FD
+    background-color: #FFEBD0
   &-2
-    background-color: #FFFBE8
+    background-color: #E6F0CD
   &-3
-    background-color: #F0E9F6
+    background-color: #D6F5FB !important
   &-4
-    background-color: #EAF8FD
+    background-color: #E6EBF8
+  &-5
+    background-color: #F6F3EF
+  &-6
+    background-color: #E9F9FD
+  &-7
+    background-color: #FFF4E6
+  &-8
+    background-color: #FFF4E6
+  &-9
+    background-color: $color-secundario
+  &-10
+    background-color: $color-acento-contenido
+  &-11
+    background-color: $color-primario
+  &-12
+    background-color: #F2F7E5
+  &-13
+    background-color: #E2DACC
+  &-14
+    background-color: #F9F7F4
+  &-15
+    background-color: #496406
   &-info
     background-color: #E8EEFD
   &-sintesis
     background-color: #F9F9F9
   &-white
-    background-color: #fff
+    background-color: #fff !important
 
 .border-top
   &.color-primario
@@ -41,6 +63,14 @@
 
 // Full Width Background
 .bg-full-width
+  background-size: contain
+  background-repeat: no-repeat
+  background-position: bottom
+  margin-inline: -3.3rem
+  @media screen and (max-width: $bp-max-sm)
+    padding-left: 1.5rem
+    padding-right: 1.5rem
+.bg-full-width-2
   background-size: cover
   background-repeat: no-repeat
   background-position: bottom
@@ -54,12 +84,30 @@
     background-image: url("../assets/bg/bg1.png") !important
     background-position: top
   &-2
-    // background-image: url("../assets/bg/bg2.png") !important
-    background-position: bottom
+    background-image: url("../assets/bg/bg2.svg") !important
+    background-position: 0 36px
+  &-3
+    background-image: url("../assets/bg/bg3.svg") !important
+    background-position: center
+  &-4
+    background-image: url("../assets/bg/bg4.svg") !important
+    background-position: center
+  &-5
+    background-image: url("../assets/bg/bg5.svg") !important
+    background-position: center
+  &-6
+    background-image: url("../assets/bg/bg6.svg") !important
+    background-position: center
   &-slider
-    background-image: url("../assets/bg/bg-slider.png") !important
+    background-image: url("../assets/bg/bg-slider.svg") !important
     background-position: bottom
 
+.pst
+  border-radius: 10px 10px 0 0
+  &-1
+    border-radius: 0 0 10px 10px
+  &-2
+    height: 70%
 // Variables
 $custom-card-border-radius: 0px
 $custom-card-shadow: 0 4px 8px rgba(0,0,0,0.1)
@@ -97,15 +145,15 @@ $custom-card-img-height: 322px
 
 
 .acordion__header
-  background-color: lighten($color-acento-contenido, 25%) !important
+  background-color: lighten($color-secundario, 35%) !important
 
 .acordion__header--active
-  background-color: $color-acento-contenido !important
+  background-color: $color-secundario !important
   h4, i
     color: #000 !important
 
 .acordion__contenido
-  background-color: lighten($color-acento-contenido, 27%) !important
+  background-color: lighten($color-secundario, 40%) !important
 
 
 .anexo__texto
