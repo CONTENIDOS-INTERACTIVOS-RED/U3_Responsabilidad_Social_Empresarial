@@ -10,7 +10,7 @@
             img(src='@/assets/curso/tema3/1.png', alt='')
         .col-lg.order-1
           .p-4
-            p.mb-0(data-aos="fade-up") La lucha contra la corrupción es esencial para las empresas comprometidas con la RSE. Al implementar medidas preventivas y fomentar una cultura ética, las organizaciones fortalecen su reputación y contribuyen al desarrollo sostenible en las comunidades donde operan.
+            p.mb-0(data-aos="fade-up") Las herramientas de gestión en la Responsabilidad Social Empresarial (RSE) son esenciales para planificar, implementar y evaluar acciones alineadas con principios éticos, sociales y ambientales. Estas herramientas permiten identificar necesidades, establecer metas y medir el impacto, promoviendo una gestión sostenible y responsable.
     
     h2(data-aos="fade-left") Principales herramientas de gestión en la RSE
     p.mb-5 Las herramientas de gestión en responsabilidad social empresarial (RSE) facilitan la integración de prácticas sostenibles en las organizaciones, promoviendo un balance entre el desempeño social, ambiental y económico.
@@ -244,7 +244,7 @@
     
     .row.mb-5
       .col-lg-8 
-        p(data-aos="fade-left") LLos informes de sostenibilidad son herramientas clave que permiten a las organizaciones comunicar su desempeño en áreas económicas, sociales y ambientales. Estas prácticas fortalecen la confianza con los grupos de interés, promueven la toma de decisiones responsables y alinean las operaciones empresariales con los principios de la Responsabilidad Social Empresarial (RSE).
+        p(data-aos="fade-left") Los informes de sostenibilidad son herramientas clave que permiten a las organizaciones comunicar su desempeño en áreas económicas, sociales y ambientales. Estas prácticas fortalecen la confianza con los grupos de interés, promueven la toma de decisiones responsables y alinean las operaciones empresariales con los principios de la Responsabilidad Social Empresarial (RSE).
         h2(data-aos="fade-left") Beneficios de los informes de sostenibilidad
         .bg-color-5.p-4(data-aos="fade-left").mb-4
           p.mb-0 La elaboración de informes de sostenibilidad permite a las organizaciones fortalecer su compromiso con la transparencia y la gestión responsable, además de alinear sus prácticas con normativas internacionales.
@@ -358,7 +358,7 @@
               h3.mb-1 Auditorías sociales y ambientales
               p Lo invitamos a leer el documento <b>Auditorías sociales y ambientales</b>, donde se detallan los objetivos, tipos y beneficios de estas herramientas clave en la responsabilidad social empresarial.
             .col-sm-auto
-              a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+              a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/Anexo_1.pdf')" target="_blank")
                 span Descargar
                 i.fas.fa-arrow-right
     
@@ -391,7 +391,7 @@
               h3.mb-1 Dimensiones económica, social y ambiental
               p Invito a explorar el documento <b>Dimensiones económica, social y ambiental</b>, el cual profundiza en los pilares de la responsabilidad social empresarial y su impacto en el desarrollo sostenible
             .col-sm-auto
-              a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+              a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/Anexo_2.pdf')" target="_blank")
                 span Descargar
                 i.fas.fa-arrow-right
 

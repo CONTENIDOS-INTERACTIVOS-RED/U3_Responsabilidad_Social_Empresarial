@@ -107,16 +107,6 @@ export default {
   referencias: [
     {
       referencia:
-        'Pinzón Camargo, M. A. (2009). El papel de las ONG y sus alcances en la responsabilidad social empresarial: ( ed.). Red Revista Opera. ',
-      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/22878?page=1',
-    },
-    {
-      referencia:
-        'Guibert Ucín, J. M. (2013). Responsabilidad social empresarial: competitividad y casos de buenas prácticas en pymes: ( ed.). Publicaciones de la Universidad de Deusto. ',
-      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/34084?page=1',
-    },
-    {
-      referencia:
         'Rainforest Alliance. (2020). Unilever and Rainforest Alliance collaboration. ',
       link: 'https://www.rainforest-alliance.org',
     },
@@ -154,7 +144,7 @@ export default {
     },
     {
       referencia:
-        'ISO. (2019). .ISO 26000 and the Sustainable Development Goals. ',
+        'ISO. (2019). ISO 26000 and the Sustainable Development Goals. ',
       link: 'https://www.iso.org',
     },
     {
@@ -168,21 +158,6 @@ export default {
     {
       referencia: 'SAI. (2019). SA8000 Standard: Guidance Document.',
       link: 'https://www.sa-intl.org',
-    },
-    {
-      referencia:
-        'Pinzón Camargo, M. A. (2009). El papel de las ONG y sus alcances en la responsabilidad social empresarial: ( ed.). Red Revista Opera. ',
-      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/22878?page=1',
-    },
-    {
-      referencia:
-        'Guibert Ucín, J. M. (2013). Responsabilidad social empresarial: competitividad y casos de buenas prácticas en pymes: ( ed.). Publicaciones de la Universidad de Deusto',
-      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/34084?page=1',
-    },
-    {
-      referencia:
-        'ISO. (2019). ISO 26000 and the Sustainable Development Goals. ',
-      link: 'https://www.iso.org',
     },
     {
       referencia: 'GRI. (2020). Global Reporting Initiative Standards. ',
@@ -208,75 +183,8 @@ export default {
     },
     {
       referencia:
-        'Pinzón Camargo, M. A. (2009). El papel de las ONG y sus alcances en la responsabilidad social empresarial: ( ed.). Red Revista Opera. ',
-      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/22878?page=1',
-    },
-    {
-      referencia:
-        'Guibert Ucín, J. M. (2013). Responsabilidad social empresarial: competitividad y casos de buenas prácticas en pymes: ( ed.). Publicaciones de la Universidad de Deusto. ',
-      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/34084?page=1',
-    },
-    {
-      referencia:
         'United Nations. (2019). The Sustainable Development Goals Report. ',
       link: 'https://unstats.un.org/sdgs',
-    },
-    {
-      referencia: 'Pacto Global. (2019). Empresas y desarrollo sostenible. ',
-      link: 'https://www.unglobalcompact.org',
-    },
-    {
-      referencia:
-        'Pinzón Camargo, M. A. (2009). El papel de las ONG y sus alcances en la responsabilidad social empresarial: ( ed.). Red Revista Opera. ',
-      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/22878?page=1',
-    },
-    {
-      referencia:
-        'Guibert Ucín, J. M. (2013). Responsabilidad social empresarial: competitividad y casos de buenas prácticas en pymes: ( ed.). Publicaciones de la Universidad de Deusto. ',
-      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/34084?page=1',
-    },
-    {
-      referencia: 'Pacto Global. (2019). Empresas y desarrollo sostenible. ',
-      link: 'https://www.unglobalcompact.org',
-    },
-    {
-      referencia:
-        'United Nations Global Compact. (2019). Empresas y desarrollo sostenible.  ',
-      link: 'https://www.unglobalcompact.org',
-    },
-    {
-      referencia:
-        'Global Reporting Initiative (GRI). (2021). GRI Standards: Sustainability reporting standards. ',
-      link: 'https://www.globalreporting.org/standards',
-    },
-    {
-      referencia:
-        'Organización Internacional de Normalización (ISO). (2010). ISO 26000: Guía sobre responsabilidad social. ',
-      link: 'https://www.iso.org/standard/42546.html',
-    },
-    {
-      referencia:
-        'Transparencia Internacional. (2021). Informe Global de Corrupción. ',
-      link: 'https://www.transparency.org',
-    },
-    {
-      referencia:
-        'Pinzón Camargo, M. A. (2009). El papel de las ONG y sus alcances en la responsabilidad social empresarial: ( ed.). Red Revista Opera. ',
-      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/22878?page=1',
-    },
-    {
-      referencia:
-        'Guibert Ucín, J. M. (2013). Responsabilidad social empresarial: competitividad y casos de buenas prácticas en pymes: ( ed.). Publicaciones de la Universidad de Deusto. ',
-      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/34084?page=1',
-    },
-    {
-      referencia:
-        'Transparencia Internacional. (2021). Informe Global de Corrupción. ',
-      link: 'https://www.transparency.org',
-    },
-    {
-      referencia: 'Edelman Trust Barometer. (2021). Global Trust Report. ',
-      link: 'https://www.edelman.com',
     },
   ],
   glosario: [
@@ -323,7 +231,7 @@ export default {
     {
       termino: 'Estándares GRI',
       significado:
-        'normas internacionales para la elaboración de informes de sostenibilidad',
+        'normas internacionales para la elaboración de informes de sostenibilidad.',
     },
     {
       termino: ' ISO 26000',

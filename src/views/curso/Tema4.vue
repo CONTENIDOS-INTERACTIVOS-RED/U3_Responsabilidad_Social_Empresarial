@@ -82,7 +82,7 @@
             h2.mb-4(data-aos="flip-up") Estudio de casos
             p.mb-4(data-aos="fade-right") El estudio de casos es una herramienta esencial para comprender la aplicación de la responsabilidad social empresarial en contextos reales. Invito a explorar el documento <b>estudio de casos</b>, que destaca su importancia en el aprendizaje práctico, los beneficios para el análisis crítico y ejemplos concretos que ilustran el impacto de la RSE en empresas y comunidades.
     
-            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_1.pdf')" target="_blank")(data-aos="flip-up")
+            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_3.pdf')" target="_blank")(data-aos="flip-up")
               .anexo__icono(:style="{'background-color': '#FCDFDB'}")
                 img(src="@/assets/template/icono-pdf.svg")
               .anexo__texto
@@ -230,7 +230,7 @@
             h2.mb-4(data-aos="flip-up") Impactos de actos de corrupción y soborno
             p.mb-4(data-aos="fade-right") Lo invitamos a conocer más sobre los Impactos de actos de corrupción y soborno en las organizaciones y su relación con la reputación empresarial y la RSE. En este documento, se analizan las repercusiones legales, económicas y sociales de estas prácticas, así como estrategias preventivas para fortalecer la transparencia y la ética empresarial.
     
-            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_1.pdf')" target="_blank")(data-aos="flip-up")
+            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_4.pdf')" target="_blank")(data-aos="flip-up")
               .anexo__icono(:style="{'background-color': '#FCDFDB'}")
                 img(src="@/assets/template/icono-pdf.svg")
               .anexo__texto
@@ -279,7 +279,7 @@ export default {
   data() {
     return {
       cuestionario: {
-        tema: 'Herramientas colaborativas para la construcción de paz',
+        tema: 'Evaluación de la Aplicación de la RSE en PYMES',
         titulo: 'Ponte a prueba',
         introduccion:
           'Demuestra lo que aprendiste en esta unidad y pon a prueba tus conocimientos.',
@@ -288,28 +288,28 @@ export default {
           {
             id: 1,
             texto:
-              '¿Cuál de las siguientes es una característica fundamental de los derechos humanos?',
+              'Identifica la acción que pertenece a la dimensión económica:',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'Son temporales y cambiantes',
+                texto: 'Programas de capacitación comunitaria',
                 esCorrecta: false,
               },
               {
                 id: 'b',
-                texto: 'Son universales y aplican a todas las personas',
-                esCorrecta: true,
-              },
-              {
-                id: 'c',
-                texto: 'Son exclusivos de ciertos grupos',
+                texto: 'Reducción de emisiones de carbono',
                 esCorrecta: false,
               },
               {
+                id: 'c',
+                texto: 'Inversión en tecnologías sostenibles',
+                esCorrecta: true,
+              },
+              {
                 id: 'd',
-                texto: 'Son opcionales',
+                texto: 'Gestión de residuos',
                 esCorrecta: false,
               },
             ],
@@ -319,28 +319,28 @@ export default {
           {
             id: 2,
             texto:
-              '¿Cuál de las siguientes afirmaciones sobre la diversidad cultural es correcta?',
+              'En un escenario de crisis reputacional, ¿qué estrategia puede mitigar los efectos?',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'Fomenta la homogeneización cultural',
-                esCorrecta: false,
-              },
-              {
-                id: 'b',
-                texto: 'Promueve el respeto y la aceptación de las diferencias',
+                texto: 'Comunicación transparente con los grupos de interés',
                 esCorrecta: true,
               },
               {
+                id: 'b',
+                texto: 'Incremento de costos',
+                esCorrecta: false,
+              },
+              {
                 id: 'c',
-                texto: 'Debilita la identidad cultural de los pueblos',
+                texto: 'Eliminación de programas de sostenibilidad',
                 esCorrecta: false,
               },
               {
                 id: 'd',
-                texto: 'Limita las oportunidades de interacción',
+                texto: 'Negligencia en auditorías',
                 esCorrecta: false,
               },
             ],
@@ -350,28 +350,18 @@ export default {
           {
             id: 3,
             texto:
-              'La mediación en un conflicto tiene como objetivo principal:',
+              'Las auditorías ambientales pueden identificar el uso ineficiente de recursos.',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'Imponer una solución rápida',
-                esCorrecta: false,
-              },
-              {
-                id: 'b',
-                texto: 'Facilitar el diálogo entre las partes',
+                texto: 'Verdadero',
                 esCorrecta: true,
               },
               {
-                id: 'c',
-                texto: 'Determinar la culpabilidad',
-                esCorrecta: false,
-              },
-              {
-                id: 'd',
-                texto: 'Ignorar las preocupaciones de una parte',
+                id: 'b',
+                texto: 'Falso',
                 esCorrecta: false,
               },
             ],
@@ -380,28 +370,29 @@ export default {
           },
           {
             id: 4,
-            texto: 'En un foro comunitario, es importante:',
+            texto:
+              '¿Cuál sería una medida práctica para prevenir la corrupción en una empresa?',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'Escuchar solo a las autoridades',
-                esCorrecta: false,
-              },
-              {
-                id: 'b',
-                texto: 'Fomentar la participación de todos los miembros',
+                texto: 'Establecer canales de denuncia anónimos',
                 esCorrecta: true,
               },
               {
+                id: 'b',
+                texto: 'Reducir la transparencia',
+                esCorrecta: false,
+              },
+              {
                 id: 'c',
-                texto: 'Decidir por votación sin consultar a los demás',
+                texto: 'Minimizar la capacitación ética',
                 esCorrecta: false,
               },
               {
                 id: 'd',
-                texto: 'Excluir las opiniones de los más jóvenes',
+                texto: 'Evitar códigos de conducta',
                 esCorrecta: false,
               },
             ],
@@ -410,29 +401,28 @@ export default {
           },
           {
             id: 5,
-            texto:
-              '¿Qué busca la justicia restaurativa en el contexto de un conflicto?',
+            texto: '¿Qué beneficio genera una alianza entre empresas y ONG?',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'Aplicar una sanción severa',
+                texto: 'Competencia desleal',
                 esCorrecta: false,
               },
               {
                 id: 'b',
-                texto: 'Reparar el daño y restablecer las relaciones',
+                texto: 'Resolución de problemas complejos',
                 esCorrecta: true,
               },
               {
                 id: 'c',
-                texto: 'Castigar a las partes involucradas',
+                texto: 'Incremento de conflictos',
                 esCorrecta: false,
               },
               {
                 id: 'd',
-                texto: 'Ignorar el contexto del conflicto',
+                texto: 'Reducción de impacto social',
                 esCorrecta: false,
               },
             ],
